@@ -126,10 +126,17 @@
 
   /* Socials */
 
+  .socials {
+    display: flex;
+    align-items: center;
+    gap:5rem;
+  }
+
   .brands {
-    display: inline-flex; 
+    display: flex; 
+    align-items: center;
     margin: 2rem 0 0 4rem;
-    padding: 1rem 0.65rem 1rem 1.7rem;
+    padding: 1rem 1.7rem;
     border: 2px solid rgb(228, 228, 228);
     border-radius: 40px;
   }
@@ -139,23 +146,29 @@
     font-size: 0.9rem;
     color: rgb(108, 108, 108);
     font-weight: 500;
-    margin-top: 2.5px;
+    
     margin-right: 1rem;
   }
 
   .brands i {
     display:flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     border: 1px solid rgb(228, 228, 228);
     padding: 5px;
     border-radius: 15px;
     margin-right: 1rem;
   }
 
+  .logos {
+    display: flex;
+    gap: 2rem;
+  }
+
   .logos img {
-    height:5rem;
+    height:2.5rem;
     width:8rem;
-    padding:2rem;
+    padding:2rem
   }
 
   
